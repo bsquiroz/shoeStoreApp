@@ -1,6 +1,6 @@
 import { httpClient } from "../plugins/http-client";
 
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = "https://shoestoreapp-dev-jhxz.2.ie-1.fl0.io/";
 
 export async function getProducts() {
 	try {
