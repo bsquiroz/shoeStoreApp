@@ -7,7 +7,7 @@ export const app = express();
 const ACCEPTED_ORIGINS = [
 	"http://localhost:5173",
 	"http://localhost:4173",
-	"https://shoe-store-app-two.vercel.app",
+	process.env.FRONT_BASE_URL,
 ];
 
 enableCors(app, ACCEPTED_ORIGINS);
